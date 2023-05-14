@@ -4,20 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Papa-Jokes</title>
+    <title>Papa-Jokes</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <img src="imgs/dad.jpeg" alt="Dad photo" id="photo" />
-    <button id="randomJoke">Random Joke</button>
-
-    <p id="text"></p>
-
+    <div class="randomBlock">
+      <p id="text"></p>
+      <button id="randomJoke" class="button">Random Joke</button>
+    </div>
     <form class="form" id="form">
-      <input type="search" id="value" value="" />
-      <input type="submit" name="Search" value="Search" />
+      <div class="searchBar">
+        <input type="search" id="value"  value="" required />
+        <input type="submit" name="Search" value="Search" class="button" required />
+      </div>
+
+      <div id="searchJoke"></div>
     </form>
-    <div id="searchJoke" ></div>
 
     <script type="module" src="main.js"></script>
     <script nomodule src="random.js"></script>

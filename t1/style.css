@@ -1,11 +1,11 @@
 body {
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  flex-flow: column nowrap;
   justify-content: center;
   align-items: center;
   font-size: 17px;
 }
+
 
 #photo {
   width: 40%;
@@ -13,27 +13,58 @@ body {
 }
 
 #text {
-  width: 400px;
-  height: 100px;
-  background-color: lightgray;
+
+  background-color: white;
   padding: 30px;
-  margin: 66px;
+  margin: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 15%;
+  border-radius: 15px;
 }
 
 #form {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+  padding: 16px;
+  width: 90%;
+    height: auto;
+}
+
+.button{ margin: 8px;
+  border: solid black 1px;
+  border-radius: 5px;
+  }
+.button:hover{
+  background-color: grey;
+}
+.button:active{
+  background-color: black;
+  color: white;
+}
+
+
+.randomBlock {
+  background-color: lightgray;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+  width: 400px;
+  height: 201px;
 }
 
 .Jokes {
-  background-color: lightgray;
+  background-color: white;
   padding: 16px;
   border-radius: 10px;
 }
-.not{
-    background-color: red;
+.not {
+  background-color: red;
+}
+.searchBar {
+  display: inline;
 }

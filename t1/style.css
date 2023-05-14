@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+}
+
+#photo {
+  width: 40%;
+  height: auto;
+}
+
+#text {
+  width: 400px;
+  height: 100px;
+  background-color: lightgray;
+  padding: 30px;
+  margin: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15%;
+}
+
+#form {
+  display: flex;
+  flex-direction: row;
+}
+
+.Jokes {
+  background-color: lightgray;
+  padding: 16px;
+  border-radius: 10px;
+}
+.not{
+    background-color: red;
+}

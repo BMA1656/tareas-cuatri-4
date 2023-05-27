@@ -5,22 +5,26 @@ body {
   align-items: center;
   font-size: 17px;
 }
-
-
 #photo {
   width: 40%;
   height: auto;
 }
-
 #text {
-
+  text-decoration: none;
+  color: black;
   background-color: white;
   padding: 30px;
-  margin: 16px;
+  width: 280px;
+  height: 120px;
   display: flex;
+  margin: 22px;
   justify-content: center;
   align-items: center;
   border-radius: 15px;
+}
+#searchJoke{
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 #form {
@@ -30,22 +34,26 @@ body {
   background-color: lightgray;
   padding: 16px;
   width: 90%;
-    height: auto;
+  height: auto;
 }
-
-.button{ margin: 8px;
+.button {
+  color: black;
+  margin: 8px;
   border: solid black 1px;
   border-radius: 5px;
-  }
-.button:hover{
+}
+.button:hover {
   background-color: grey;
 }
-.button:active{
+.button:active {
   background-color: black;
   color: white;
 }
-
-
+.buy{
+  background-color: white;
+  text-decoration: none;
+  padding: 2px;
+}
 .randomBlock {
   background-color: lightgray;
   display: flex;
@@ -54,13 +62,15 @@ body {
   align-items: center;
   margin: 16px;
   width: 400px;
-  height: 201px;
+  height: auto;
 }
-
 .Jokes {
+  text-decoration: none;
   background-color: white;
-  padding: 16px;
+ padding: 8px;
   border-radius: 10px;
+  width: 90%;
+  margin: 16px;
 }
 .not {
   background-color: red;

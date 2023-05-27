@@ -9,21 +9,29 @@
   </head>
   <body>
     <img src="imgs/dad.jpeg" alt="Dad photo" id="photo" />
-    <div class="randomBlock">
-      <p id="text"></p>
+    <div class="randomBlock" >
+      <div id="randomBlock">
+
+        <h1 id="text">Want a joke?</h1>
+      </div>
+                         
       <button id="randomJoke" class="button">Random Joke</button>
+      
     </div>
     <form class="form" id="form">
       <div class="searchBar">
-        <input type="search" id="value"  value="" required />
-        <input type="submit" name="Search" value="Search" class="button" required />
+        <input type="search" id="value" value="" required />
+        <input
+          type="submit"
+          name="Search"
+          value="Search"
+          class="button"
+          required
+        />
       </div>
-
       <div id="searchJoke"></div>
     </form>
 
     <script type="module" src="main.js"></script>
-    <script nomodule src="random.js"></script>
-    <script nomodule src="search.js"></script>
   </body>
 </html>

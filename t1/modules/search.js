@@ -11,28 +11,21 @@ export function search(i) {
             }
         })
         .then(joke => joke.json())
-        // .then(joke => {
-        //     searchDIV.innerText = JSON.stringify(joke.results[0]["joke"]);
-        // })
         .then(joke => {
-                if (joke.results.length > 0) {
-                    
-                    for (let i = 0; i < joke.results.length; i++) {
-                        searchDIV.innerHTML +=
-                            `<a class="Jokes" a data-value="${joke.results[i]["id"]}"> Joke number ${i+1}: ${joke.results[i]["joke"]}</a>
-                            `;
+            if (joke.results.length > 0) {
 
-
-
-
-
-                            
-                    }
+                for (let i = 0; i < joke.results.length; i++) {
+                    searchDIV.innerHTML +=
+                    `<li class="jokeList" >
+                        <a class="jokes" a href="products.html?${joke.results[i]["id"]}"> Joke number ${i+1}: ${joke.results[i]["joke"]}</a>
+                    </li>
+                         `
                 }
-            else{
+            } else {
                 searchDIV.innerHTML +=
-                `<p class="Jokes not"> Daddy mistake, jokes not found </p>
-             
+                    `<li > 
+                        <p class=" jokeList not"> Daddy mistake, jokes not found </p>
+                    </li>     
                 `
             }
         })

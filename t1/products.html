@@ -1,16 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Products Page</title>
-</head>
-<body>
-    <div id="build"></div>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <div class="containerProducs">
+        
 
-<a href="" data-value=""></a>
+        <div class="variants variants-objects">
+          <div id="productBlock">
+            <p id="text" class="valueOnproduct-1"> </p>
+            <img id="prueba" src="./imgs/shirt-black.jpg" alt="product" class="productImage"  />
+            <img src="./imgs/dad.jpeg" alt="dad" class="valueOnproduct-2">
+          </div>
+         
+          
+          <div class="variantsButtons">
+            <button class="variant-button variant-active" ></button>
+            <button class="variant-button "></button>
+          </div>
+        </div>
 
-    <script src="main.js"></script>
-</body>
+        
+        <div id="sellValues" class="sellValues">
+          <h2 id="productTitle"> Black shirt  with Joke</h2>
+          <h3 id="productPrice">28 dls</h3>
+          <h3 id="jokes"></h3>
+          <div class="randomBlock">
+            <div id="replace-container" class="randomBlock-button">
+              <h1 class="text">Want another joke?</h1>
+            </div>
+            <button class="button randomJoke " >New Joke</button>
+          </div>
+        
+        
+        </div>
+      </div>
+
+
+
+    </div> 
+<div class="productsContainer">
+  <h2>Other Products</h2>
+<ul class="productslist" id="carouselContainer">
+  <li><img src="./imgs/shirt-black.jpg" alt="caseimage" class="productsImage" id="0" ></li>
+  <li><img src="./imgs/shirt-white.jpg" alt="caseimage" class="productsImage" id="1" ></li>
+  <li><img src="./imgs/case-black.jpg" alt="caseimage" class="productsImage" id="2" ></li>
+  <li><img src="./imgs/case-white.jpg" alt="caseimage" class="productsImage" id="3" ></li>
+  <li><img src="./imgs/poster-black.jpg" alt="posterimage" class="productsImage" id="4"></li>
+  <li><img src="./imgs/poster-white.jpg" alt="posterimage" class="productsImage" id="5"></li>
+  <li><img src="./imgs/pillow-black.jpg" alt="pillowimage" class="productsImage" id="6"></li>
+  <li><img src="./imgs/pillow-white.jpg" alt="pillowimage" class="productsImage" id="7"></li>
+
+</ul>
+
+
+</div>
+
+
+    <script type="module" src="products.js"></script>
+  </body>
 </html>

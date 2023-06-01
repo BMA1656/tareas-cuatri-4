@@ -5,23 +5,12 @@ body {
   align-items: center;
   font-size: 17px;
 }
+
 #photo {
   width: 40%;
   height: auto;
 }
-#text {
-  text-decoration: none;
-  color: black;
-  background-color: white;
-  padding: 30px;
-  width: 280px;
-  height: 120px;
-  display: flex;
-  margin: 22px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 15px;
-}
+
 #searchJoke{
   display: flex;
   flex-flow: column nowrap;
@@ -36,6 +25,14 @@ body {
   width: 90%;
   height: auto;
 }
+ul{
+  list-style: none;
+}
+
+
+
+
+
 .button {
   color: black;
   margin: 8px;
@@ -64,17 +61,126 @@ body {
   width: 400px;
   height: auto;
 }
-.Jokes {
-  text-decoration: none;
+.jokeList {
   background-color: white;
  padding: 8px;
   border-radius: 10px;
   width: 90%;
   margin: 16px;
 }
+.jokes{
+  color: black;
+  text-decoration: none;
+}
 .not {
   background-color: red;
 }
 .searchBar {
   display: inline;
+}
+
+
+.text {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 30px;
+  width: 280px;
+  height: 120px;
+  display: flex;
+  margin: 22px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.productImage{
+  max-width: 500px;
+  max-height: 433px;
+}
+
+.imgaSmall{
+  width: 50%;
+}
+.variants,.sellValues{
+  margin: 1rem;
+}
+
+.variants-objects {
+  position: relative;
+  display: inline-block;
+}
+
+
+.valueOnproduct-1{
+  position: absolute;
+  top: 71px;
+  right: 315px;
+  width: 109px;
+  height: auto;
+  color: red;
+  text-align: center;
+}
+.valueOnproduct-2 {
+  position: absolute;
+  top: 91px;
+  right: 86px;
+  width: 93px;
+  height: auto;
+  background-color: red;
+  border: 1px solid black;
+
+}
+
+
+
+.variantsButtons{
+   display: flex;
+   justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.variant-button{
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  background-color: white;
+  margin: 12px;
+  }
+ 
+  
+  .variant-active{
+  border: solid 4px rgb(14, 156, 156);
+  background-color: black;
+  }
+  
+
+.containerProducs{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.sellValues{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+
+
+
+
+
+.productslist{
+  display: flex;
+  flex-direction: row;
+}
+.productsImage{
+  max-width:230px ;
+  height: 215px;
+  margin: 32px;
+  border: 7px solid black;
 }

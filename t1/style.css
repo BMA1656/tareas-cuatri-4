@@ -11,7 +11,7 @@ body {
   height: auto;
 }
 
-#searchJoke{
+#searchJoke {
   display: flex;
   flex-flow: column nowrap;
 }
@@ -25,13 +25,9 @@ body {
   width: 90%;
   height: auto;
 }
-ul{
+ul {
   list-style: none;
 }
-
-
-
-
 
 .button {
   color: black;
@@ -46,7 +42,7 @@ ul{
   background-color: black;
   color: white;
 }
-.buy{
+.buy {
   background-color: white;
   text-decoration: none;
   padding: 2px;
@@ -63,12 +59,12 @@ ul{
 }
 .jokeList {
   background-color: white;
- padding: 8px;
+  padding: 8px;
   border-radius: 10px;
   width: 90%;
   margin: 16px;
 }
-.jokes{
+.jokes {
   color: black;
   text-decoration: none;
 }
@@ -78,7 +74,6 @@ ul{
 .searchBar {
   display: inline;
 }
-
 
 .text {
   text-decoration: none;
@@ -94,15 +89,16 @@ ul{
   border-radius: 15px;
 }
 
-.productImage{
+.productImage {
   max-width: 500px;
   max-height: 433px;
 }
 
-.imgaSmall{
+.imgaSmall {
   width: 50%;
 }
-.variants,.sellValues{
+.variants,
+.sellValues {
   margin: 1rem;
 }
 
@@ -111,14 +107,13 @@ ul{
   display: inline-block;
 }
 
-
-.valueOnproduct-1{
+.valueOnproduct-1 {
   position: absolute;
   top: 71px;
   right: 315px;
   width: 109px;
   height: auto;
-  color: red;
+  color: white;
   text-align: center;
 }
 .valueOnproduct-2 {
@@ -127,60 +122,70 @@ ul{
   right: 86px;
   width: 93px;
   height: auto;
-  background-color: red;
-  border: 1px solid black;
-
 }
 
-
-
-.variantsButtons{
-   display: flex;
-   justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
+.variantsButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
 
-.variant-button{
+.variant-button {
   border-radius: 50%;
   height: 45px;
   width: 45px;
   background-color: white;
   margin: 12px;
-  }
- 
-  
-  .variant-active{
+}
+
+.variant-active {
   border: solid 4px rgb(14, 156, 156);
   background-color: black;
-  }
-  
-
-.containerProducs{
-  display: flex;
-    flex-direction: row;
-    align-items: center;
 }
-.sellValues{
+
+.containerProducs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.sellValues {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   flex-wrap: nowrap;
 }
+.market {
+  display: none;
+  width: 600px;
+  height: 400px;
+  background-color: rgba(245, 231, 231, 0.598);
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
 
+.marketButton {
+  position: absolute;
+  left: 82%;
+  top: 1%;
+  z-index: 1;
+}
 
-
-
-
-
-.productslist{
+.productslist {
   display: flex;
   flex-direction: row;
 }
-.productsImage{
-  max-width:230px ;
+.productsImage {
+  max-width: 230px;
   height: 215px;
   margin: 32px;
   border: 7px solid black;
+}
+.marketImage{
+  width: 50px;
+  height: 50px;
 }

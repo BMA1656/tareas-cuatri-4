@@ -1,59 +1,74 @@
-[
-{
-    "title" : "Black Shirt",
-    "color" : "Black",
-    "id" : 0,
-    "img" : "./imgs/shirt-black.jpg",
-    "price" : "$ 13"
-},
-{
-    "title" : "White Shirt",
-    "color" : "white",
-    "id" : 1,
-    "img" : "./imgs/shirt-white.jpg",
-    "price" : "$ 10"
-},
-{
-    "title" : "Black Case",
-    "color" : "Black",
-    "id" : 2,
-    "img" : "./imgs/case-black.jpg",
-    "price" : "$ 7"
-},
-{
-    "title" : "White case",
-    "color" : "white",
-    "id" : 3,
-    "img" : "./imgs/case-white.jpg",
-    "price" : "$ 5"
-},
-{
-    "title" : "Black Poster",
-    "color" : "Black",
-    "id" : 4,
-    "img" : "./imgs/poster-black.jpg",
-    "price" : "$ 7"
-},
-{
-    "title" : "White Poster",
-    "color" : "white",
-    "id" : 5,
-    "img" : "./imgs/poster-white.jpg",
-    "price" : "$ 5"
-},
-{
-    "title" : "Black Pillow",
-    "color" : "Black",
-    "id" : 6,
-    "img" : "./imgs/pillow-black.jpg",
-    "price" : "$ 15"
-},
-{
-    "title" : "White Pillow",
-    "color" : "white",
-    "id" : 7,
-    "img" : "./imgs/pillow-white.jpg",
-    "price" : "$ 12"
-}
+[{
+        "title": "Black Shirt",
+        "color": "Black",
+        "id": 0,
+        "productID": 1,
+        "img": "./imgs/shirt-black.jpg",
+        "price": "$ 18",
+        "position": 1
+    },
+    {
+        "title": "White Shirt",
+        "color": "White",
+        "id": 1,
+        "productID": 1,
+        "img": "./imgs/shirt-white.jpg",
+        "price": "$ 10",
+        "position": 0
+    },
+    {
+        "title": "Black Case",
+        "color": "Black",
+        "id": 2,
+        "productID": 2,
+        "img": "./imgs/case-black.jpg",
+        "price": "$ 7",
+        "position": 0
+    },
+    {
+        "title": "White case",
+        "color": "White",
+        "id": 3,
+        "productID": 2,
+        "img": "./imgs/case-white.jpg",
+        "price": "$ 5",
+        "position": 0
+    },
+    {
+        "title": "Black Poster",
+        "color": "Black",
+        "id": 4,
+        "productID" : 3,
+        "img": "./imgs/poster-black.jpg",
+        "price": "$ 7",
+        "position": 0
+    },
+    {
+        "title": "White Poster",
+        "color": "White",
+        "id": 5,
+        "productID" : 3,
+        "img": "./imgs/poster-white.jpg",
+        "price": "$ 5",
+        "position": 0
+    },
+    {
+        "title": "Black Pillow",
+        "color": "Black",
+        "id": 6,
+        "productID" : 4,
+        "img": "./imgs/pillow-black.jpg",
+        "price": "$ 15",
+        "position": 0
+    },
+    {
+        "title": "White Pillow",
+        "color": "White",
+        "id": 7,
+        "productID" : 4,
+        "img": "./imgs/pillow-white.jpg",
+        "price": "$ 12",
+        "position": 0
+    }
 
 ]

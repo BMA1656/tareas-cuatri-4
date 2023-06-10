@@ -1,5 +1,5 @@
 [{
-        "title": "Black Shirt",
+        "title": "Shirt",
         "color": "Black",
         "id": 0,
         "productID": 1,
@@ -8,7 +8,7 @@
         "position": 1
     },
     {
-        "title": "White Shirt",
+        "title": "Shirt",
         "color": "White",
         "id": 1,
         "productID": 1,
@@ -17,7 +17,7 @@
         "position": 0
     },
     {
-        "title": "Black Case",
+        "title": "Case",
         "color": "Black",
         "id": 2,
         "productID": 2,
@@ -26,7 +26,7 @@
         "position": 0
     },
     {
-        "title": "White case",
+        "title": "Case",
         "color": "White",
         "id": 3,
         "productID": 2,
@@ -35,7 +35,7 @@
         "position": 0
     },
     {
-        "title": "Black Poster",
+        "title": "Poster",
         "color": "Black",
         "id": 4,
         "productID" : 3,
@@ -44,7 +44,7 @@
         "position": 0
     },
     {
-        "title": "White Poster",
+        "title": "Poster",
         "color": "White",
         "id": 5,
         "productID" : 3,
@@ -53,7 +53,7 @@
         "position": 0
     },
     {
-        "title": "Black Pillow",
+        "title": "Pillow",
         "color": "Black",
         "id": 6,
         "productID" : 4,
@@ -62,7 +62,7 @@
         "position": 0
     },
     {
-        "title": "White Pillow",
+        "title": "Pillow",
         "color": "White",
         "id": 7,
         "productID" : 4,

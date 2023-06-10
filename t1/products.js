@@ -1,8 +1,22 @@
-import { builder, updateJoke } from "./modules/builder.js";
-import { random } from "./modules/random.js";
-import { change } from "./modules/change.js";
-import { changeColor } from "./modules/colorChange.js";
-import {  hideOrShow,getObject,clearAll } from "./modules/object.js";
+import {
+    builder,
+    updateJoke
+} from "./modules/builder.js";
+import {
+    random
+} from "./modules/random.js";
+import {
+    change
+} from "./modules/change.js";
+import {
+    changeColor
+} from "./modules/colorChange.js";
+import {
+    hideOrShow,
+    getObject,
+    clearAll,
+    deleteLi
+} from "./modules/object.js";
 
 window.addEventListener("DOMContentLoaded", builder);
 
@@ -36,13 +50,25 @@ carouselContainer.addEventListener("click", (event) => {
     }
 });
 
-const buttonMarket= document.getElementById("marketButton")
-buttonMarket.addEventListener("click",hideOrShow)
+const deleteButtons = document.getElementById("objectList");
+deleteButtons.addEventListener("click", (event) => {
+    if (event.target.matches(".delete-button")) {
+        const object = event.target;
+        const objectValue = object.value;
+        deleteLi(objectValue);
+    }
+});
+
+
+
+
+const buttonMarket = document.getElementById("marketButton")
+buttonMarket.addEventListener("click", hideOrShow)
 
 const addMarket = document.getElementById("buy")
-addMarket.addEventListener("click",() =>{
+addMarket.addEventListener("click", () => {
     getObject()
 })
 
 const clearAllbutton = document.getElementById("clearAll")
-clearAllbutton.addEventListener("click",clearAll)
+clearAllbutton.addEventListener("click", clearAll)

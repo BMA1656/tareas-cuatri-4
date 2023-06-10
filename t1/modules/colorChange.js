@@ -2,6 +2,9 @@ import { publisherC } from "./publishers.js";
 import {  objectOndata } from "./page.js";
 import { objectList } from "./api.js";
 
+
+
+
 export class coloObserver {
     color(datos) {
         this.datos = datos;

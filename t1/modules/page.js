@@ -46,10 +46,6 @@ export function productBuilder(objects) {
 }
 
 
-
-
-
-
 export class objectOndata {
     constructor(title, color, id, productID,img, price) {
         this.title = title;
@@ -62,7 +58,12 @@ export class objectOndata {
     renewJoke() {
         const cont = document.getElementById("contentValue");       
         const title = document.getElementById("productTitle");
-        title.innerText = `${this.title} with joke`
+        const jokeImg = document.getElementById("text");
+        const DadImg = document.getElementById("dadImg");
+        jokeImg.setAttribute("class", `${this.title}-1 ${this.color}` );
+        DadImg.setAttribute("class", `${this.title}-2`);
+       
+
         cont.innerHTML =            `
              <h3 id="productPrice"> Price ${this.price}</h3>`;
     }

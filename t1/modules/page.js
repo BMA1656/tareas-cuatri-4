@@ -62,7 +62,7 @@ export class objectOndata {
         const DadImg = document.getElementById("dadImg");
         jokeImg.setAttribute("class", `${this.title}-1 ${this.color}` );
         DadImg.setAttribute("class", `${this.title}-2`);
-       
+        title.innerText = `${this.color} ${this.title} with joke`;
 
         cont.innerHTML =            `
              <h3 id="productPrice"> Price ${this.price}</h3>`;

@@ -20,7 +20,9 @@ class buyObjects {
         listaObjetos.innerHTML +=
             `<li id="${this.id}${objectId}" class="objectMarketList">
             <p class="${this.title}-1-mini ${this.color}">${this.joke}</p>
-            <img src="${this.img}" alt="product" class="marketImage"/>
+            <div class="divSeparador"> <img src="${this.img}" alt="product" class="marketImage ${this.title}-mini"/>
+            </div>
+           
         <div>
         <h3> ${this.color} ${this.title} with joke</h3>
         <h3>Price:${this.price}</h3>

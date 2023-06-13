@@ -1,24 +1,16 @@
-import {
-    builder,
-    updateJoke
-} from "./modules/builder.js";
-import {
-    random
-} from "./modules/random.js";
-import {
-    change
-} from "./modules/change.js";
-import {
-    changeColor
-} from "./modules/colorChange.js";
-import {
-    hideOrShow,
-    getObject,
-    clearAll,
-    deleteLi
-} from "./modules/object.js";
+import { builder,updateJoke, } from "./modules/builder.js";
+import { random } from "./modules/random.js";
+import { change, buildCarroucel} from "./modules/change.js";
+import { changeColor,newColor } from "./modules/colorChange.js";
+import { hideOrShow, getObject, clearAll, deleteLi } from "./modules/object.js";
+import { printerPage } from "./modules/page.js";
 
-window.addEventListener("DOMContentLoaded", builder);
+window.addEventListener("DOMContentLoaded",  () => {
+    printerPage();
+    newColor();
+    buildCarroucel();
+    builder();
+    } );
 
 const randombutton = document.querySelectorAll(".randomJoke");
 randombutton.forEach((active) => {

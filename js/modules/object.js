@@ -1,7 +1,3 @@
-import {
-    objectList
-} from "./api.js"
-
 
 
 class buyObjects {
@@ -57,7 +53,8 @@ export async function getObject() {
     const idenProduct = document.querySelector(".productImage");
     const id = idenProduct.id
 
-    const object = await objectList()
+    const requestProductList = await fetch("js/modules/require/products.json");
+    const object = await requestProductList.json();
     for (let i = 0; i < object.length; i++) {
         if (object[i]["id"] == id) {
             const objectReady = new buyObjects(object[i]["title"], object[i]["color"], object[i]["img"], object[i]["id"], object[i]["price"], joke);

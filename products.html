@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Products Page</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <div>
@@ -19,24 +19,22 @@
       <div class="containerProducs">
         <div class="variants variants-objects">
           <div id="productBlock">
-            <p id="text" ></p>
+            <p id="text" class="Shirt-1"></p>
             <div id="blockImage" >
-              <img id="prueba" src="" alt="product" class="productImage" />
+              <img id="0" src="./imgs/shirt-black.jpg" alt="product" class="productImage" value="1" />
             </div>
-            <img id="dadImg" src="./imgs/dad.jpeg" alt="dad" c" />
+            <img id="dadImg" src="./imgs/dad.jpeg" alt="dad" class="Shirt-2"/>
           </div>
-
           <div class="variantsButtons">
             <button class="variant-button variant-active" id="Black"></button>
             <button class="variant-button" id="White"></button>
           </div>
           <button class="button addbutton" id="buy">Add</button>
         </div>
-
         <div id="sellValues" class="sellValues">
-          <h2 id="productTitle"></h2>
+          <h2 id="productTitle"> Black Shirt whith Joke</h2>
           <div id="contentValue"></div>
-
+          <h3 id="productPrice">Price $ 18</h3>
           <h3 id="jokes" class="jokesOnproduct"></h3>
           <div class="randomBlock">
             <div id="replace-container" class="randomBlock-button">
@@ -47,12 +45,10 @@
         </div>
       </div>
     </div>
-
     <div class="productsContainer">
       <h2>Other Products</h2>
       <ul class="productslist" id="carouselContainer"></ul>
     </div>
-
-    <script type="module" src="products.js"></script>
+    <script type="module" src="./js/products.js"></script>
   </body>
 </html>
